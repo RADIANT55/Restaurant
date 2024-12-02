@@ -73,7 +73,7 @@ body{
 	max-width: 1400px;
 	min-height: 100vh;
 	margin: 0px auto;
-	background-color: var(--background-clr);
+	background-color: white;
 }
 section.home{
 	position: relative;
@@ -85,6 +85,18 @@ section.home{
 	background-size: cover;
 	background-position: center;
 }
+
+section.menu{
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+	padding: 20px 8%;
+	background: rgba(134, 130, 130, 0.63);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .home .home-overlay{
 	position: absolute;
 	width: 100%;
@@ -197,10 +209,59 @@ section.home{
 .banner .banner-contents p{
 	color: var(--light-text-clr);
 }
-.banner .banner-contents .read-more-btn{
+.banner .banner-contents{
 	margin-top: 30px;
 	font-size: 17px;
 }
+
+.read-more-btn {
+	/* padding: 15px;
+	background-color: white;
+	color: red;
+	text-decoration: none;
+	border-radius: 20%;
+	margin-top: 10%; */
+
+	padding: 10px 25px;
+    background-color: var(--primary-clr);
+    color: var(--light-heading-clr);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+	text-transform: none;
+	text-decoration: none;
+
+
+	
+}
+
+.read-more-btn:hover{
+	/* padding: 15px;
+	background-color: white;
+	color: red;
+	text-decoration: none;
+	border-radius: 20%;
+	margin-top: 10%; */
+
+	padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: 3px solid white transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+	text-decoration: none;
+
+
+
+	
+}
+
 /*   === Home Section Styling Ends ===   */
 
 /*   === Facilities Section Styling Starts ===   */
