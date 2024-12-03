@@ -91,7 +91,7 @@ section.menu{
 	width: 100%;
 	min-height: 50vh;
 	padding: 20px 8%;
-	background: rgba(134, 130, 130, 0.63);
+	background: rgba(109, 59, 59, 0.575);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -174,6 +174,7 @@ section.menu{
 	margin: 6px auto;
 	transition: all 0.3s;
 }
+
 .home .banner{
 	position: relative;
 	width: 100%;
@@ -310,12 +311,14 @@ section.facilities{
 	font-size: 22px;
 	text-transform: uppercase;
 	color: #de4b4b; 
+	text-align: justify;
 
 }
 .facility-item .facility-desc p{
 	line-height: 1.4;
 	color: var(--dark-text-clr);
 	color: #000000; 
+	text-align: justify;
 }
 /*   === Facilities Section Styling Ends ===   */
 
@@ -360,6 +363,7 @@ section.about{
 	font-size: 18px;
 	color: var(--primary-clr);
 	text-transform: uppercase;
+	text-align: justify;
 }
 .about-contents .about-right-col h1{
 	font-size: 42px;
@@ -367,10 +371,12 @@ section.about{
 	color: var(--dark-heading-clr);
 	margin: 5px 0px 15px;
 	text-transform: uppercase;
+	text-align: justify;
 }
 .about-contents .about-right-col p{
 	color: var(--dark-text-clr);
 	line-height: 1.4;
+	text-align: justify;
 }
 .about-contents .about-right-col .about-states{
 	display: flex;
@@ -547,10 +553,12 @@ section.our-team{
 	font-size: 22px;
 	font-weight: 600;
 	color: var(--dark-heading-clr);
+	text-align: justify;
 }
 .trainer-card .trainer-desc p{
 	color: var(--dark-text-clr);
 	margin-top: 5px;
+	text-align: justify;
 }
 .trainer-card .trainer-contact{
 	position: absolute;
@@ -808,20 +816,22 @@ section.blog{
 	color: var(--light-text-clr);
 	margin-bottom: 10px;
 	font-weight: bold;
-	text-align: right; /* Aligns text content to the right */
+	text-align: left; /* Aligns text content to the right */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+	text-align: justify;
 }
 .footer-col-1 .footer-col-desc span{
 	color: var(--light-text-clr);
 	margin-bottom: 17px;
 	display: inline-block;
 	font-weight: bold;
-    text-align: right; /* Aligns text content to the right */
+    text-align: left; /* Aligns text content to the right */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+	text-align: justify;
 
 }
 .footer-col-1 .footer-col-desc span:nth-of-type(1){
@@ -871,6 +881,7 @@ section.blog{
 .footer-col-3 .footer-col-desc p{
 	color: var(--light-text-clr);
 	line-height: 1.4;
+	text-align: justify;
 }
 .footer-col-3 .footer-col-desc input{
 	width: 100%;
@@ -880,6 +891,7 @@ section.blog{
 	color: var(--dark-text-clr);
 	border: none;
 	border-radius: 25px;
+	 text-align: justify;
 }
 .copy-rights{
 	width: 100%;
